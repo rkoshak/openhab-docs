@@ -241,6 +241,8 @@ WAXING_CRESCENT=🌑→🌓 Waxing Crescent
 FIRST_QUARTER=🌓 First Quarter
 ```
 
+Depending on the [Intial Startup Package]({{base}}/configuration/packages.html) selected, the Map Transformation may need to be installed.
+
 ## Icons
 OpenHAB provides you a set of [basic icons]({{base}}/addons/iconsets/classic/readme.html) by default.
 However if you wish to use custom icons you need to place them inside the `conf/icons/classic/` folder.
