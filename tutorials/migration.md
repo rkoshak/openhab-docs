@@ -168,11 +168,10 @@ there is a 2.0 native version
 you use. If you are in doubt of the name of a binding, look in openhab.cfg for
 that binding's configurations. The first part of the tag in openhab.cfg will be
 that name of the binding. For example, the configuration parameters for the
-MQTT Binding start with "mqtt" in openhab.cfg so the name of the binding is
-"mqtt". For those bindings that have a 2.0 version, use the name followed by a
-"1", for example, to use the 1.9 SNAPSHOT version of the Astro binding instead
-of the 2.0 version, use the name "astro1". You can find the list of 2.0
-bindings [here]({{base}}/addons/bindings.html).
+MQTT Binding start with "mqtt" in openhab.cfg so the name of the binding is "mqtt". 
+For those bindings that are version 1.9, the binding name will end in a 1. 
+For example, the mqtt binding will use "mqtt1" in addons.cfg.
+You can find the list of all bindings [here]({{base}}/addons/bindings.html).
 - `ui = ` - if you intend on using PaperUI include "paper", if you use zwave I
 recommend "habmin". The list of UIs are [here]({{base}}/addons/uis.html).
 - `action = ` - the list of action add-ons you used in openHAB 1.x.
