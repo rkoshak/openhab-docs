@@ -171,6 +171,8 @@ that name of the binding. For example, the configuration parameters for the
 MQTT Binding start with "mqtt" in openhab.cfg so the name of the binding is "mqtt". 
 For those bindings that are version 1.9, the binding name will end in a 1. 
 For example, the mqtt binding will use "mqtt1" in addons.cfg.
+However, using the appended 1 only takes place in this file.
+All other references to the MQTT binding, for example, would use "mqtt" regardless of the binding version.
 You can find the list of all bindings [here]({{base}}/addons/bindings.html).
 - `ui = ` - if you intend on using PaperUI include "paper", if you use zwave I
 recommend "habmin". The list of UIs are [here]({{base}}/addons/uis.html).
