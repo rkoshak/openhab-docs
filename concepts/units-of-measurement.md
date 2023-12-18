@@ -90,7 +90,7 @@ In case you set a different unit (see above, e.g. `km`) that is taken and the it
 
 A `QuantityType` state update or command to a non-dimensional `Number` item will result in a state update that consists of the numeric part only.
 So updating a `Number` item with `5.0 kW` will set the item's state to 5.0, updating the same item with `5.0 W` will also set the item's state to 5.0.
-Linking dimension channels to non-dimensional items is therefore discouraged and will not be permitted in future versions of openHAB.
+Linking dimension channels to non-dimensional items is therefore discouraged.
 
 ### Defining ChannelTypes
 
